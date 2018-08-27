@@ -134,7 +134,8 @@ void loop() {
   Serial.print(hif);
   Serial.println(" *F");
 
-  /*display.setTextSize(1);
+  /**********************
+  display.setTextSize(1);
   display.setTextColor(WHITE);
   display.setCursor(0,0);
   display.println("Hello, world!");
@@ -145,9 +146,9 @@ void loop() {
   display.print("0x"); display.println(0xDEADBEEF, HEX);
   display.display();
   delay(2000);
-  display.clearDisplay(); */
-
-  //**********************
+  display.clearDisplay();
+  **********************/
+  
   display.setTextSize(1);
   display.setTextColor(WHITE);
   display.setCursor(0,0);
@@ -158,6 +159,5 @@ void loop() {
   display.display();
   delay(5000);
   display.clearDisplay(); 
-  //**********************/
-
+  
 }
